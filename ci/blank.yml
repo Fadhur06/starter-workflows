@@ -1,14 +1,14 @@
-name: CI
+name:Br Panda
 
 on: [push]
 
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on:bacot
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout
     - name: Run a one-line script
       run: echo Hello, world!
     - name: Run a multi-line script
